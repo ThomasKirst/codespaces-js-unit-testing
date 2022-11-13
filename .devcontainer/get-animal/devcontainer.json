@@ -1,6 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {},
-  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceMount": "source=${localWorkspaceFolder}/get-animal,target=/workspace,type=bind",
   "workspaceFolder": "/workspace"
 }
